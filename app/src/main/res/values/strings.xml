@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Realtime Current Location</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="warning">Warning</string>
+    <string name="update">Update</string>
+    <string name="error">Error</string>
+    <string name="message_gps_is_disable">Your location seems to be disable, Please enable GPS</string>
+    <string name="reset">Reset</string>
+    <string name="method">Method</string>
+    <string name="method_callback">Method Callback</string>
+    <string name="method_runnable">Method Runnable</string>
+</resources>

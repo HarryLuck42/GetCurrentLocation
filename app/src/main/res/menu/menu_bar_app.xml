@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/reset_menu"
+        android:icon="@drawable/ic_reset"
+        android:title="@string/reset"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/category_menu"
+        android:icon="@drawable/ic_category"
+        android:title="@string/method"
+        app:showAsAction="ifRoom"
+        >
+        <menu>
+            <item
+                android:id="@+id/method_callback"
+                android:title="@string/method_callback"
+                app:showAsAction="ifRoom"
+                />
+            <item
+                android:id="@+id/method_runnable"
+                android:title="@string/method_runnable"
+                app:showAsAction="ifRoom"
+                />
+        </menu>
+    </item>
+</menu>
