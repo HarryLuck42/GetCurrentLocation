@@ -1,2 +1,4 @@
+include ':LocationUpdateForegroundService'
+include ':LocationUpdatesPendingIntent'
 include ':app'
 rootProject.name = "GetTrackCoordinate"
